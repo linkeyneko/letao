@@ -50,12 +50,5 @@ $(function(){
   $("[type='reset']").click(function(){
     $("#form").data("bootstrapValidator").resetForm();
   })
-  $(document).ajaxStart(function(){
-    NProgress.start();
-  })
-  $(document).ajaxStop(function(){
-    setTimeout(function(){
-      NProgress.done();
-    },500)
-  })
+
 })
