@@ -1,0 +1,20 @@
+.lt-main table th:nth-child(1),
+.lt-main table td:nth-child(1){
+  width: 15%;
+}
+.lt-main table th:nth-child(2),
+.lt-main table td:nth-child(2){
+  width:30%;
+}
+.lt-main table th:nth-child(3),
+.lt-main table td:nth-child(3){
+  width: 30%;
+}
+.lt-main table th:nth-child(4),
+.lt-main table td:nth-child(4){
+  width: 15%;
+}
+.lt-main table th:nth-child(5),
+.lt-main table td:nth-child(5){
+  width: 10%;
+}

@@ -1,0 +1,11 @@
+.lt-main table th:nth-child(1),
+.lt-main table td:nth-child(1){
+  width: 30%;
+}
+.lt-main table th:nth-child(2),
+.lt-main table td:nth-child(2){
+  width:70%;
+}
+.lt-main .addcate{
+  margin-bottom:20px;
+}
