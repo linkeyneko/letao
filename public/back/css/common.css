@@ -94,7 +94,7 @@ a:hover{
 
 /*aside结束*/
 
-/*main开始*/
+/*main公共部分开始*/
 
 .lt-main{
   width: 100%;
@@ -130,5 +130,7 @@ a:hover{
 .lt-main .breadcrumb{
   margin-bottom:20px;
 }
-
-/*main结束*/
+.lt-main .main-body{
+  width: 100%;
+}
+/*main公共部分结束*/
