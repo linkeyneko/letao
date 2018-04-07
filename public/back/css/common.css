@@ -13,6 +13,7 @@ a:hover{
 .body_bg{
   background-color: #222d32;
 }
+
 .mt_150{
   margin-top:150px;
 }
@@ -132,5 +133,10 @@ a:hover{
 }
 .lt-main .main-body{
   width: 100%;
+}
+.lt-main .table th,
+.lt-main .table td{
+  text-align: center;
+  vertical-align: middle;
 }
 /*main公共部分结束*/

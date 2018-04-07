@@ -14,6 +14,19 @@ $(document).ajaxStop(function(){
 //禁用小圆环loading
 NProgress.configure({ showSpinner: false });
 
+//登录验证
+if(location.href.indexOf("login.html")===-1){
+  $.ajax({
+    url:'/employee/checkRootLogin',
+    type:'get',
+    success:function(info){
+      if(info.error==400){
+        location.href="login.html";
+      }
+    }
+  })
+}
+
 ;$(function(){
   //影藏显示侧边栏
   $(".icon-hide").click(function(){
@@ -23,7 +36,7 @@ NProgress.configure({ showSpinner: false });
   })
 //  显示模态框
   $(".icon-outmodal").click(function(){
-    $(".modal").modal('show');
+    $(".logoutmodal").modal('show');
   })
   //点击退出执行退出ajax
   $("#logout").click(function(){
